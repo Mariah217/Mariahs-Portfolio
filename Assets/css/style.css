@@ -2,7 +2,34 @@ body {
     background-color: ;
 }
 
+/*nav bar and my name*/
+header {
+   position: absolute;
+   margin-top: 100px;  
+   display: flex;
+   justify-content: space-between;
+   border: 
+}
+
+/*my name*/
+h1 {
+    font-size: 50px;
+    font: /*color goes here*/
+    display: flex;
+    border-style: solid;
+    border-width: 10px 10px;
+}
+
+/*nav bar*/
 nav {
     display: block;
     flex-wrap: wrap;
+    margin-top: 0;
+}
+
+/*image of me*/
+img {
+   height:300px;
+   width:300px;
+   margin-top: 250px;
 }

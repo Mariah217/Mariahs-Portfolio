@@ -4,32 +4,44 @@ body {
 
 /*nav bar and my name*/
 header {
-   position: absolute;
-   margin-top: 100px;  
+   position: fixed;
+   margin-top: 25px;
+   padding: 10px;
    display: flex;
    justify-content: space-between;
-   border: 
 }
 
 /*my name*/
 h1 {
+    font-family: russo one;
+    font-weight: lighter;
     font-size: 50px;
-    font: /*color goes here*/
     display: flex;
+    padding: 12px;
     border-style: solid;
-    border-width: 10px 10px;
+    border-width: 5px 5px;
 }
 
 /*nav bar*/
 nav {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
-    margin-top: 0;
+    padding: 20px;
+    margin: 20px;
+
 }
 
 /*image of me*/
 img {
    height:300px;
    width:300px;
-   margin-top: 250px;
+   margin-top: 150px;
+   margin-left: 50px;
+   margin-bottom: 50px;
+}
+
+#contact {
+    border-style: solid;
+    border-width: 10px;
+    border-color: black ;
 }

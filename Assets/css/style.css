@@ -56,13 +56,21 @@ section h2 {
     padding: 15px;
 }
 
-section p  {
+section ul li {
     border: 2px solid #534340;
     display: flex;
     font-size: 16px;
+    background-color: #EFEAD8;
+    font-size: 25px;
+    border-width: 25%;
+
 }
 
 footer {
     text-align: center;
     font-weight: bolder;
+}
+
+#work {
+    margin-top: 3000px;
 }

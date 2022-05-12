@@ -1,34 +1,35 @@
 body {
-    background-color: ;
+    background-color: #D0C9C0;
 }
 
 /*nav bar and my name*/
 header {
-   position: fixed;
    margin-top: 25px;
    padding: 10px;
    display: flex;
-   justify-content: space-between;
 }
 
 /*my name*/
-h1 {
+header h1 {
     font-family: russo one;
     font-weight: lighter;
     font-size: 50px;
-    display: flex;
+    text-align: center;
+    flex-basis: 20%;
     padding: 12px;
     border-style: solid;
     border-width: 5px 5px;
 }
+header nav {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /*nav bar*/
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin: 20px;
-
+header nav ul li {
+    display: inline-block;
+    
 }
 
 /*image of me*/
@@ -36,12 +37,10 @@ img {
    height:300px;
    width:300px;
    margin-top: 150px;
-   margin-left: 50px;
+   margin-left: 45px;
    margin-bottom: 50px;
 }
 
-#contact {
-    border-style: solid;
-    border-width: 10px;
-    border-color: black ;
+#aboutMe, #contact {
+    border: 2px solid black;
 }

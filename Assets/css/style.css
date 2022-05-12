@@ -2,11 +2,10 @@ body {
     background-color: #D0C9C0;
 }
 
-/*nav bar and my name*/
+/*nav bar, my name and background img*/
 header {
-    /* border: 2px solid black; */
     background-image: url(https://media.istockphoto.com/vectors/natural-patternabstractcurve-shapeleaf-green-colour-background-vector-id936394272?k=20&m=936394272&s=612x612&w=0&h=xD3hse544R49JqRS-4BUwTfLUxuolgx0NKDHIuQocWY=);
-    height: 200px;
+    height: auto;
     padding: 50px;
     display: flex;
 }
@@ -46,3 +45,12 @@ img {
     margin-bottom: 50px;
 }
 
+/* Contact Me Section */
+section h2 {
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    padding: 15px;
+}

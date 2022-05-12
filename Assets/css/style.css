@@ -20,6 +20,7 @@ header h1 {
     border-style: solid;
     border-width: 5px 5px;
 }
+/* nav bar position */
 header nav {
     flex-basis: 80%;
     display: flex;
@@ -41,6 +42,6 @@ img {
    margin-bottom: 50px;
 }
 
-#aboutMe, #contact {
-    border: 2px solid black;
+/* #aboutMe, #contact {
+    border: 2px solid black; */
 }

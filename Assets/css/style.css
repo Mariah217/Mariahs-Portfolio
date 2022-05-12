@@ -4,9 +4,11 @@ body {
 
 /*nav bar and my name*/
 header {
-   margin-top: 25px;
-   padding: 10px;
-   display: flex;
+    /* border: 2px solid black; */
+    background-image: url(https://media.istockphoto.com/vectors/natural-patternabstractcurve-shapeleaf-green-colour-background-vector-id936394272?k=20&m=936394272&s=612x612&w=0&h=xD3hse544R49JqRS-4BUwTfLUxuolgx0NKDHIuQocWY=);
+    height: 200px;
+    padding: 50px;
+    display: flex;
 }
 
 /*my name*/
@@ -14,12 +16,14 @@ header h1 {
     font-family: russo one;
     font-weight: lighter;
     font-size: 50px;
+    background-color: #5F7161;
     text-align: center;
     flex-basis: 20%;
     padding: 12px;
     border-style: solid;
     border-width: 5px 5px;
 }
+
 /* nav bar position */
 header nav {
     flex-basis: 80%;
@@ -30,18 +34,15 @@ header nav {
 /*nav bar*/
 header nav ul li {
     display: inline-block;
-    
+
 }
 
 /*image of me*/
 img {
-   height:300px;
-   width:300px;
-   margin-top: 150px;
-   margin-left: 45px;
-   margin-bottom: 50px;
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-bottom: 50px;
 }
 
-/* #aboutMe, #contact {
-    border: 2px solid black; */
-}

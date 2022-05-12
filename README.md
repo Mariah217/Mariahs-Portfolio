@@ -4,13 +4,14 @@
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
+My motivation was to get better practice using more advanced CSS elements. I built this webiste to use as my portfolio when I am job hunting and to display all the projects I have been working on. Being able to build this website has taught me a lot about flex and justify-content and also how to create boxes throughout my web page.
 
 ## Usage
+
+
+
+
 
 Provide instructions and examples for use. Include screenshots as needed.
 

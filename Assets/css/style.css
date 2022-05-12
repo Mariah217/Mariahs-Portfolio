@@ -56,21 +56,27 @@ section h2 {
     padding: 15px;
 }
 
-section ul li {
-    border: 2px solid #534340;
-    display: flex;
-    font-size: 16px;
-    background-color: #EFEAD8;
-    font-size: 25px;
-    border-width: 25%;
-
-}
-
 footer {
     text-align: center;
     font-weight: bolder;
 }
 
-#work {
-    margin-top: 3000px;
+#about-me ul li, #work ul li, #contact-me ul li {
+    color: black;
+    background-color: #EFEAD8;
+    border: 2px solid #534340; 
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-right: 1500px;
+    text-align: center;
+
 }
+
+#work ul li {
+
+}
+
+#contact-me {
+   
+} 

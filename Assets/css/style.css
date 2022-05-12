@@ -47,6 +47,7 @@ img {
 
 /* Contact Me Section */
 section h2 {
+    background-color: #EFEAD8 ;
     display: flex;
     border: 2px solid black;
     width: 50%;

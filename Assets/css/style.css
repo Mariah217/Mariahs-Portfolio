@@ -32,7 +32,6 @@ header nav {
 /*nav bar*/
 header nav ul li {
     display: inline-block;
-
 }
 
 /*image of me*/
@@ -42,6 +41,7 @@ img {
     margin-top: 25px;
     margin-left: 45px;
     margin-bottom: 50px;
+    z-index: 1;
 }
 
 /* Contact Me Section */
@@ -55,12 +55,17 @@ section h2 {
     justify-content: space-evenly;
     padding: 15px;
 }
-
+/* footer */
 footer {
     text-align: center;
     font-weight: bolder;
 }
 
+.boxes {
+    display: block;
+}
+
+/* titles for my boxes */
 #about-me ul li, #work ul li, #contact-me ul li {
     color: black;
     background-color: #EFEAD8;
@@ -70,13 +75,47 @@ footer {
     margin-left: 400px;
     margin-right: 1500px;
     text-align: center;
-
 }
 
+/* about me title */
+#about-me {
+    z-index: 2;
+    margin-top: 0px;
+}
+/* about me border */
+#about-me p {
+    font-size: 18px;
+    border: 4px solid #534340;
+    width: 25%;
+    text-align:justify;
+}
+
+/* work title */
 #work ul li {
 
 }
 
+/* work border */
+#work p {
+    font-size: 18px;
+    border: 4px solid #534340;
+    width: 25%;
+    text-align:justify;
+}
+
+/* contact me title */
 #contact-me {
-   
+    z-index: 2;
+  
 } 
+
+/* contact me border */
+#contact-me p {
+    margin-left: 25%;
+    padding: 20px;
+    font-size: 18px;
+    border: 4px solid #534340;
+    width:50%;
+    text-align: center;
+    z-index: 1;
+}

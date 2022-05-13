@@ -36,9 +36,12 @@ header nav ul li {
 
 /*image of me*/
 img {
+    border: 4px solid #534340;
+    background-color: #5F7161;
+    padding: 20px;
     height: 300px;
     width: 300px;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 45px;
     margin-bottom: 50px;
     z-index: 1;
@@ -68,8 +71,8 @@ footer {
 /* titles for my boxes */
 #about-me ul li, #work ul li, #contact-me ul li {
     color: black;
-    background-color: #EFEAD8;
-    border: 2px solid #534340; 
+    background-color: #5F7161;
+    border: 4px solid #534340; 
     font-size: 25px;
     border-radius: 5px;
     margin-left: 400px;
@@ -84,6 +87,7 @@ footer {
 }
 /* about me border */
 #about-me p {
+    background-color: #EFEAD8;
     font-size: 18px;
     border: 4px solid #534340;
     width: 25%;
@@ -97,6 +101,7 @@ footer {
 
 /* work border */
 #work p {
+    background-color: #EFEAD8;
     font-size: 18px;
     border: 4px solid #534340;
     width: 25%;
@@ -111,6 +116,7 @@ footer {
 
 /* contact me border */
 #contact-me p {
+    background-color: #EFEAD8;
     margin-left: 25%;
     padding: 20px;
     font-size: 18px;

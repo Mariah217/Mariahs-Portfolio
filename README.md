@@ -7,16 +7,8 @@ My motivation was to get better practice using more advanced CSS elements. I bui
 ## Usage
 
 
+<a href="https://mariah217.github.io/Portfolio/" rel="nofollow"> Click for Live Link </a>
 
-
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 

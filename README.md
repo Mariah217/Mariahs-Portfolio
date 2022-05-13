@@ -7,16 +7,26 @@ My motivation was to get better practice using more advanced CSS elements. I bui
 ## Usage
 
 
-<a href="https://mariah217.github.io/Portfolio/" rel="nofollow"> Click for Live Link </a>
-
+<a href="https://mariah217.github.io/Portfolio/"> Click for Live Link </a>
+<br>
+<br>
+ ![alt text](assets/image/Capture.PNG)
 
 ## Credits
 
-w3schools
+I take credit for creating and designing this website. I referenced several different websites to help guide me in the right direction regarding coding.
+
+w3schools:
+<br>
 https://www.w3schools.com/tags/tag_nav.asp
 
-MDN Websites
+https://www.w3schools.io/file/github-readme-image/
+
+MDN Websites:
+<br>
 https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+
+
 
 
 ## License

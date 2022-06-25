@@ -44,7 +44,6 @@ header nav ul li {
 .container2 {
     display: flex;
     flex-direction: column;
-    /* margin: 0 5%; */
     width: 50%;
 }
 
@@ -74,16 +73,17 @@ footer {
 }
 
 /* titles for my boxes */
-.aboutme-title, .work-title {
+.aboutme-title,
+.work-title {
     color: black;
     background-color: #5F7161;
-    border: 4px solid #534340; 
+    border: 4px solid #534340;
     font-size: 25px;
     border-radius: 5px;
     text-align: center;
     width: 150px;
     margin-bottom: 10px;
-    
+
 }
 
 /* contact title */
@@ -97,17 +97,39 @@ footer {
     text-align: center;
 }
 
+#flicks {
+    color: black;
+    background-color: #5F7161;
+    border: 4px solid #534340;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+#flicksproject {
+    padding: 10px;
+}
+
 /* about me container */
 #about-me {
     margin-top: 35px;
-    
+
 }
+
 /* about me border */
 #about-me p {
     background-color: #EFEAD8;
     font-size: 18px;
     border: 4px solid #534340;
-    text-align:justify;
+    text-align: justify;
+    padding: 10px;
+}
+
+#horiseon {
+    padding: 10px;
 }
 
 /* work title margins */
@@ -120,13 +142,27 @@ footer {
     background-color: #EFEAD8;
     font-size: 18px;
     border: 4px solid #534340;
-    text-align:justify;
+    text-align: justify;
 }
 
 /* phone email and github */
 #contact-me {
+    align-items: center;
     background-color: #EFEAD8;
     border: 3px solid #534340;
     text-align: center;
     margin-top: 35px;
 }
+
+@media screen and (max-width: 992px) {
+    #contact-me img .container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact-me img .container {
+        width: 100%;
+    }
+}
+

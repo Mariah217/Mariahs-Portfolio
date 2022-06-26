@@ -4,10 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/css/reset.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Mariah's Portfolio</title>
 </head>
 <!-- title and nav bar -->
 
@@ -30,60 +36,83 @@
             <figure>
                 <img src="./Assets/image/me.jpg.jpg" alt="Me">
             </figure>
-            <section class="container2">
-                <section class="boxes">
-                    <section id="about-me">
-                        <h2 class="aboutme-title"> About Me</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellat officiis debitis
-                            eligendi vel nesciunt tempora error facere maxime, aperiam reprehenderit distinctio harum
-                            voluptas architecto perspiciatis possimus ut ex labore.Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Facilis, repellat officiis debitis
-                            eligendi vel nesciunt tempora error facere maxime, aperiam reprehenderit distinctio harum
-                            voluptas architecto perspiciatis possimus ut ex labore.Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Facilis, repellat officiis debitis
-                            eligendi vel nesciunt tempora error facere maxime, aperiam reprehenderit distinctio harum
-                            voluptas architecto perspiciatis possimus ut ex labore.
-                        </p>
 
-                    </section>
+            <div class="work-container">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <section class="boxes">
+                            <section id="about-me">
+                                <h2 class="aboutme-title"> About Me</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellat officiis
+                                    debitis
+                                    eligendi vel nesciunt tempora error facere maxime, aperiam reprehenderit distinctio
+                                    harum
+                                    voluptas architecto perspiciatis possimus ut ex labore.Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Facilis, repellat officiis debitis
+                                    eligendi vel nesciunt tempora error facere maxime, aperiam reprehenderit distinctio
+                                    harum
+                                    voluptas architecto perspiciatis possimus ut ex labore.Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Facilis, repellat officiis debitis
+                                    eligendi vel nesciunt tempora error facere maxime, aperiam reprehenderit distinctio
+                                    harum
+                                    voluptas architecto perspiciatis possimus ut ex labore.
+                                </p>
+                    </div>
+                </div>
+
+                <div class="col">
                     <section id="work">
-                        <h2 class="work-title">Work</h2>
-                        <p id="horiseon">ipsum dolor sit amet consectetur adipisicing elit. Doloremque est aspernatur doloribus
-                            expedita dicta, fugit earum, animi numquam hic nobis porro repellat adipisci tenetur quis
+                        <h2 class="work-title">Horiseon</h2>
+                        <p id="horiseon">ipsum dolor sit amet consectetur adipisicing elit. Doloremque est
+                            aspernatur
+                            doloribus
+                            expedita dicta, fugit earum, animi numquam hic nobis porro repellat adipisci tenetur
+                            quis
                             voluptatibus iure dolore nemo quisquam.
-                        </p>
-                        <div id="work-pictures">
-                            <a href="https://mariah217.github.io/git-html-css-code-refactorhw/"> <img
-                                    src="https://github.com/Mariah217/git-html-css-code-refactorhw/raw/main/assets/images/Capture.PNG"
-                                    alt="Horiseon"></a>
-                        </div>
 
-                        <h2 id="flicks">Flicks Movie Generator</h2>
+                        </p>
+
+                        <h2 id="flicks">Flicks Movie Generator <br> (group project)</h2>
                         <p id="flicksproject">
-                           This app was created to minimize the amount of time spent searching for a movie to watch. There are so many different streaming services now-a-days that it can be overwhelming and quite time conusming trying to find a movie to watch. With Flicks Movie Generator, you can simply select a genre from the dropdown menu and it will generate 5 random movies for you. The next time you visit the website, it will remind you which movie genre was last searched. 
+                            Flicks Movie Generator was created to minimize the amount of time spent searching for a
+                            movie to watch. There are so many different streaming services now-a-days that it can be
+                            overwhelming and quite time conusming trying to find a movie to watch. With Flicks Movie
+                            Generator, you can simply select a genre from the dropdown menu and it will generate 5
+                            random movies for you to chose from. The next time you visit the website, it will remind
+                            you
+                            which movie genre was last searched.
                         </p>
 
-                    </section>
-                </section>
-            </section>
-            <figure>
-                <img src="https://cdn.pixabay.com/photo/2016/05/08/14/58/icon-1379228_960_720.png" alt="code">
-            </figure>
-        </section>
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    <div id="work-pictures">
+                        <a href="https://mariah217.github.io/git-html-css-code-refactorhw/"> <img
+                                src="https://github.com/Mariah217/git-html-css-code-refactorhw/raw/main/assets/images/Capture.PNG"
+                                alt="Horiseon" id="horiseonimg"></a>
+                        <a href="https://emmcewen.github.io/FlicksMovieGenerator/"> <img
+                                src="./Assets/image/Flicks Screenshot.PNG" alt="flicks" id="flicksimg"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
 
     </main>
     <!-- contact me -->
     <section id="contact-me">
         <h2 class="contact-title">Contact Me</h2>
         <ul class="contact-info">
-            <li>Phone #: (555) 555-5555</li>
+            <li>Phone #: (513)804-5214</li>
             <br>
-            <li>Email: sample.email@yahoo.com</li>
+            <li>Email: mariahjohnston217@outlook.com</li>
             <br>
             <li> <a href="https://github.com/Mariah217">
                     <figure class="font-awesome">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path
                                 d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
                         </svg>
@@ -92,10 +121,9 @@
             <br>
         </ul>
     </section>
-    <!-- footer -->
+
     <footer>
         Made with ❤️ by Mariah 2022
-
     </footer>
 </body>
 

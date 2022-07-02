@@ -10,7 +10,7 @@ My motivation was to get better practice using more advanced CSS elements. I bui
 <a href="https://mariah217.github.io/Portfolio/"> Click for Live Link </a>
 <br>
 <br>
-![portfolio-screenshot](/Portfolio/Assets/image/Capture.PNG)
+![portfolio-screenshot](./Assets/image/Portfolio%20screenshot.PNG)
 
 ## Credits
 

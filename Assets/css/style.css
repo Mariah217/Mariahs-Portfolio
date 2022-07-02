@@ -47,6 +47,14 @@ footer {
     margin-top: 50px;
 }
 
+figure.font-awesome {
+    margin-bottom: 0%;
+}
+
+ul.contact-info {
+    margin-bottom: 0%;
+}
+
 /* titles for my boxes */
 .aboutme-title,
 .work-title {
@@ -119,3 +127,4 @@ footer {
     text-align: center;
     margin-top: 35px;
 }
+

@@ -2,7 +2,7 @@ body {
     background-color: #D0C9C0;
 }
 
-/*nav bar, my name and background img*/
+/*nav bar and background img*/
 header {
     background-image: url(https://media.istockphoto.com/vectors/natural-patternabstractcurve-shapeleaf-green-colour-background-vector-id936394272?k=20&m=936394272&s=612x612&w=0&h=xD3hse544R49JqRS-4BUwTfLUxuolgx0NKDHIuQocWY=);
     height: auto;
@@ -12,13 +12,13 @@ header {
 
 /*my name*/
 header h1 {
+    text-shadow: 2px 5px 5px black;
     font-family: 'Quicksand', sans-serif;
     font-weight: lighter;
     font-size: 50px;
     background-color: #5F7161;
     text-align: center;
     flex-basis: 20%;
-    /* padding: 12px; */
     border: 5px solid #534340;
 }
 
@@ -37,7 +37,6 @@ header nav ul li {
 /*image sizes/borders*/
 img {
     border: 4px solid #534340;
-    background-color: #5F7161;
     height: 300px;
 }
 
@@ -51,6 +50,7 @@ footer {
 /* titles for my boxes */
 .aboutme-title,
 .work-title {
+    text-shadow: 2px 5px 5px black;
     font-family: 'Quicksand', sans-serif;
     color: black;
     background-color: #5F7161;
@@ -62,6 +62,7 @@ footer {
 
 /* contact title */
 .contact-title {
+    text-shadow: 2px 5px 5px black;
     font-family: 'Quicksand', sans-serif;
     color: black;
     background-color: #5F7161;
@@ -72,15 +73,10 @@ footer {
     text-align: center;
 }
 
-/*flicks title*/
-#flicks {
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    background-color: #5F7161;
-    border: 4px solid #534340;
-    font-size: 25px;
-    border-radius: 5px;
-    text-align: center;
+/*horiseon screenshot*/
+#horiseonimg {
+    margin-left: 32px;
+    width: 567px;
 }
 
 #horiseonimg:hover {
@@ -88,9 +84,14 @@ footer {
     opacity: 50%;
 }
 
+/*flicks screenshot*/
 #flicksimg:hover {
     cursor: pointer;
     opacity: 50%;
+}
+
+#flicksimg {
+    margin-left: 30px;
 }
 
 /* about me container */
